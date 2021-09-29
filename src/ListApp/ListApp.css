@@ -1,0 +1,75 @@
+body{
+    background-color: bisque;
+}
+.list-app{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: aqua;
+    width: 300px;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.add-button{
+    color: white;
+    background-color: rgb(6, 31, 31);
+    width: 80px;
+    height: 26px;
+    margin-left: 5px;
+    cursor: grab;
+    border-radius: 3px;
+    transition-duration: .4s;
+}
+.add-button:hover{
+    color: rgb(6, 31, 31);
+    background-color: rgb(121, 245, 158);
+}
+.all-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.input-item{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 8px;
+}
+.item{
+    height: 20px;
+    width: 280px;
+    padding-left: 7px;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    margin-top: 7px;
+    text-align: left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    float: left;
+    margin-left: -5px;
+}
+.delete{
+    float: right;
+    padding-right: 7px;
+    color: white;
+}
+.delete:hover{
+    cursor: grab;
+    color: black;
+}
+.edit{
+    float: right;
+    padding-right: 8px;
+    color: white;
+}
+.edit:hover{
+    cursor: grab;
+    color: black;
+}
